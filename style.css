@@ -3,6 +3,27 @@
 
 /* font-family: 'Poppins', sans-serif; */
 
+body {
+  font-size: 20px;
+}
+
+@media all and (max-device-width: 720px){
+  body,h3 {
+      font-size: 18px;
+  }
+}
+
+@media all and (max-device-width: 640px){
+  body,h3 {
+      font-size: 16px;
+  }
+}
+
+@media all and (max-device-width: 320px){
+  body,h3 {
+      font-size: 14px;
+  }
+}
 
 * {
   padding: 0;
