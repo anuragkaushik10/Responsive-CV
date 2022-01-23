@@ -41,12 +41,7 @@ p{
   font-size: 18px;
 }
 
-.container {
-  /* background-color: #f4a261; */
-}
-header {
-  /* background-color: #2f2f2f; */
-}
+.navigation{}
 
 .about{
   margin: 50px 0 50px 0 !important;
