@@ -3,6 +3,7 @@
 
 /* font-family: 'Poppins', sans-serif; */
 
+
 body {
   font-size: 20px;
 }
@@ -273,22 +274,14 @@ h3 {
 .progress-line.python span::after {
   content: "90%";
 }
-.contact {
-    margin-top:20px;
-    height:200px;
-    background-color: red;
-    background-image: url(./connect.png);
-    /* padding:20px; */
-}
-.contact .contact-box{
-    height:2000px;
-    /* background-color: green; */
-}
+
+
 
 .portfolio,
 .skills,
 .education,
-.reference{
+.reference,
+.contact-us{
   margin-top:80px;
   
 }
@@ -296,7 +289,8 @@ h3 {
 .portfolio h3,
 .skills h3,
 .education h3,
-.reference h3{
+.reference h3,
+.contact-us h3{
   margin-bottom:20px ;
   text-transform: uppercase;
 }
@@ -724,3 +718,6 @@ footer .footer1{
   }
 }
 
+.send-button{
+  font-size: 24px;
+}
