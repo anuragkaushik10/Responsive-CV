@@ -450,14 +450,24 @@ footer .footer1{
 .footer2 h3{
   font-family: 'Sedgwick Ave', cursive;
   font-style: italic;
-  font-size:1.25rem;
+  font-size:2rem;
   padding-bottom: 20px;
   color: #000;
 }
 
 .logo img{
   /* width: 50vw; */
+  margin-top: 20px;
   margin-right: 20px;
+}
+
+.footer2 .copyright h3{
+  font-size:24px; 
+  font-weight:bold;
+  margin-top: 40px; 
+  font-style:normal;
+  text-decoration:double;
+  color:#fff;
 }
 
 .portfolio img{
@@ -713,3 +723,4 @@ footer .footer1{
       margin-bottom: 10px
   }
 }
+
