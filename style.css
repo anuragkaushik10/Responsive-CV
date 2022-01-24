@@ -66,7 +66,7 @@ p{
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(images/coding1.jpg);
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-position: center;
   background-size: cover;
   border-radius: 5px;
@@ -92,6 +92,7 @@ p{
   color: #caf0f8;
   font-size: 52px;
 }
+
 .profile {
   border: 3px solid black;
   border-radius: 100px;
@@ -458,6 +459,10 @@ footer .footer1{
   margin-right: 20px;
 }
 
+last-child{
+  margin-right:0;
+}
+
 .footer2 .copyright{
   font-size:3vw; 
   font-weight:bold;
@@ -732,4 +737,15 @@ footer .footer1{
   justify-content: top;
 }
 
-@media screen and (max-width:)
+.quote{
+  padding-top:2px;
+  font-size: 2.5vw;
+}
+
+.footer1 p{
+  font-size:2vw;
+}
+
+.copyright small{
+  font-size:1vw;
+}
